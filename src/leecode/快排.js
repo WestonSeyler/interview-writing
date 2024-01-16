@@ -15,11 +15,6 @@ function sortArray(nums) {
     const midVale = nums.splice(mid, 1)[0]
     const left = []
     const right = []
-    //[1,1,2,0,0]
-    //[1,1,0,0]
-    //[2]
-    //[5]
-    // console.log(midVale)
     for (let i = 0; i < nums.length; i++) {
         const n = nums[i]
         if (n < midVale) {
